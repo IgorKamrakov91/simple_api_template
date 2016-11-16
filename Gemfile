@@ -5,6 +5,8 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
+gem 'bcrypt'
+gem 'has_secure_token'
 
 group :test do
   gem 'shoulda-matchers', require: false
